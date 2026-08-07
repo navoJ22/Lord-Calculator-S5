@@ -15,6 +15,8 @@ function heroPickerImg(name) {
 }
 function heroDisplayImg(name) {
 	return `assets/displayicon/${heroToFile(name)}.png`;
+	return `https://navoj22.github.io/Lord-Calculator-S5/assets/displayicon/${heroToFile(name)}.png`;
+
 }
 
 /* ================= HERO LIST ================= */
