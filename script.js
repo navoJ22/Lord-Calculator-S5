@@ -11,12 +11,10 @@ function heroToFile(name) {
 	return name.toLowerCase().replace(/[^a-z]/g, "");
 }
 function heroPickerImg(name) {
-	return `assets/hero/${heroToFile(name)}.png`;
+	return `https://navoj22.github.io/Lord-Calculator-S5/assets/hero/${heroToFile(name)}.png`;
 }
 function heroDisplayImg(name) {
-	return `assets/displayicon/${heroToFile(name)}.png`;
 	return `https://navoj22.github.io/Lord-Calculator-S5/assets/displayicon/${heroToFile(name)}.png`;
-
 }
 
 /* ================= HERO LIST ================= */
