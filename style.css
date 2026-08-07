@@ -105,7 +105,7 @@ img{
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	mask-image: url("https://github.com/navoJ22/Lord-Calculator-S5/blob/main/assets/displayicon/mask.png?raw=true");
+	mask-image: url("./assets/displayicon/mask.png");
 	mask-repeat: no-repeat;
 	mask-size: contain;
 	mask-position: center;
